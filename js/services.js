@@ -10,7 +10,7 @@
 
   function coffeeService($http) {
     /*jshint validthis: true */
-    const baseURL = 'http://localhost:8000/coffee';
+    const baseURL = 'http://secret-peak-70898.herokuapp.com/coffee';
     this.getAllCoffee = function() {
       return $http.get(baseURL);
     };
